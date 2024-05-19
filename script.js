@@ -6,9 +6,9 @@ function ella_merge() {
   document.getElementById("ella_merge_link").id = "ella_you_link";
   
   document.getElementById("ella_you_link").outerHTML = '<a class="brown" id="ella_merge_link" href="all_you.html">Ella</a>'
-  document.getElementById("ella_mother_merge").innerHTML = '<img class="mother" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/mother.png?v=1709228283061"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
-  document.getElementById("ella_daughter_merge").innerHTML = '<img class="daughter" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/daughter.png?v=1709228283061"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
-  document.getElementById("ella_grandma_merge").innerHTML = '<img class="grandma" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/grandma.png?v=1709228283061"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
+  document.getElementById("ella_mother_merge").innerHTML = '<img class="mother" src="assets/mother.png"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
+  document.getElementById("ella_daughter_merge").innerHTML = '<img class="daughter" src="assets/daughter.png"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
+  document.getElementById("ella_grandma_merge").innerHTML = '<img class="grandma" src="assets/grandma.png"><button class="char brown" onclick="ella_to_you()"><h4>Ella</h4></button>';
 }
 
 function ella_to_you() {
