@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <script src="script.js"></script>
+
+    <title>Fight Simulator</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font imported, need to include on every page -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div class="chooseMain">
+      <div class="chooseMenu">
+        <h2 class="allElla brown">They are all <a class="brown" id="ella_merge_link" href="#" onclick="ella_merge()">Ella</a></h2>
+      </div>
+    </div>
+    <div class="chooseMain">
+      <div class="chooseChar" id="ella_merge">
+        <div class="char" id="ella_mother">
+          <img class="mother" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/mother.png?v=1709228283061">
+          <button class="char brown" onclick="ella_merge()" id="ella_mother_button">
+            <h4>
+              Ella
+            </h4>
+          </button>
+        </div>
+        <div class="char" id="ella_daughter">
+          <img class="daughter" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/daughter.png?v=1709228283061">
+          <button class="char brown" onclick="ella_merge()" id="ella_daughter_button">
+            <h4>
+              Ella
+            </h4>
+          </button>
+        </div>
+        <div class="char" id="ella_grandma">
+          <img class="grandma" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/grandma.png?v=1709228283061">
+          <button class="char brown" onclick="ella_merge()" id="ella_grandma_button">
+            <h4>
+              Ella
+            </h4>
+          </button>
+        </div>
+      </div>
+    </div>
+    <audio autoplay loop>
+      <source src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/Gris%20Soundtrack%20-%20Circles%20%20Gris.mp3?v=1711006178182"/>
+    </audio>
+  </body>
+</html>

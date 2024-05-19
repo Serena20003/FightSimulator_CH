@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="fight">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Fight Simulator</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="script.js"></script>
+    
+    <!-- Font imported, need to include on every page -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div class="fightMain">
+      <div class="fightChar">
+        <div class="fightTimer">
+          <h3 id="countdown_left"></h3>
+          <h3>s</h3>
+          <script>
+            updateCountdownLeft();
+          </script>
+<!--           <div style="height: 20px; background-color: #bb2226; margin-bottom: 2px; width: 40%; border-radius: 20px;"></div> -->
+        </div>
+        <div>
+          <h3 style="display: inline"></h3>
+        </div>
+      </div>
+      <div class="fightChar">
+        <div class="char">
+          <img class="daughter" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/daughter.png?v=1709228283061">
+          <button class="char notButton">
+            <h4>
+              Daughter
+            </h4>
+          </button>
+        </div>
+        <div class="fightChoice">
+          <button class="fightPrompt promptShake red">
+            <h5>
+              Daughter: I don’t wanna play with you anymore, grandma, you always cheat!
+            </h5>
+          </button>
+          <button class="fightChoice brightyellow fc1" onclick="location.href='https://fight-simulator.glitch.me/grandma_won.html';">
+            <h5>
+              I am your grandma, I can always cheat if I want to! Why are you so dramatic?
+            </h5>
+          </button>
+          <button class="fightChoice brightyellow fc2" onclick="location.href='https://fight-simulator.glitch.me/grandma_won.html';">
+            <h5>
+              Sure, I don’t like you either anyways!
+            </h5>
+          </button>
+          <button class="loveChoice brown" onclick="location.href='https://fight-simulator.glitch.me/grandma_won_won.html';">
+            <h5>
+              Sorry, I thought it would be funny and just wanted to have fun with you. Let’s play again and I will play fair this time!
+            </h5>
+          </button>
+        </div>
+        <div class="char">
+          <img class="grandma" src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/grandma.png?v=1709228280409">
+          <button class="char notButton">
+            <h4>
+              Grandma
+            </h4>
+          </button>
+        </div>
+      </div>
+    </div>
+    <audio autoplay loop>
+      <source src="https://cdn.glitch.global/0a36e597-521e-4147-a59c-215cce2d2f41/Imagine%20Dragons%20-%20Cutthroat%20(Lyrics).mp3?v=1710956102364#t=41"/> 
+    </audio>
+  </body>
+</html>

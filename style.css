@@ -1,0 +1,460 @@
+/* DEFAULT PAGE STYLES */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background: #C25B39;
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* images and videos max out at full width 
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+*/
+
+/* button style */
+button {
+  text-align: center;
+  background: #F4B043;
+  border: 0px;
+  border-radius: 37px;
+}
+
+/* adjust typography defaults */
+button, body {
+  /* margin: 1rem; */
+  font-family: "Irish Grover", serif;
+  /*  line-height: 1.5; */
+}
+
+button:hover {
+  cursor: pointer;
+  color: #C53417;
+}
+
+/* fonts */
+
+.irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 100px;
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+  font-size: 64px;
+}
+
+h4 {
+  margin: 0px;
+  font-size: 48px;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 32px;
+}
+
+/* colors */
+
+.brightyellow {
+  color: #F5D52A;
+}
+
+.yellow {
+  color: #F7C87A;
+}
+
+.lightorange {
+  color: #F4B043;
+}
+
+.orange {
+  color: #F29550;
+}
+
+.red {
+  color: #C53417;
+}
+
+.brown {
+  color: #7F4A3C;
+}
+
+.lightbrown {
+  color: #C25B39;
+}
+
+.black {
+  color: #000103;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.darkbrown {
+  color: #745C55;
+}
+
+/* SPECIFIC PAGE STYLES */
+
+/* home page */
+
+div.home {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100vw; /* view width */
+}
+
+h1.home {
+  margin-right: 30px;
+  text-align: right;
+}
+img.home {
+  position: fixed;
+  left: 0px;
+  top: 30vh;
+}
+
+button.home {
+  margin-right: 30px;
+  padding: 10px;
+  width: 550px;
+}
+
+/* choose fighter page */
+
+div.chooseMain {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+h2.chooseMain {
+  text-align: right;
+  width: 100vw;
+  padding-right: 30px;
+}
+
+div.chooseMenu {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button.noFight {
+  font-size: 32px;
+  background: #C53417;
+  color: #000103;
+  margin: 10px;
+  padding: 10px;
+}
+
+button.noFight:hover {
+  color: #F5D52A;
+}
+
+div.chooseChar {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+div.char {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 2;
+}
+
+button.char {
+  min-width: 240px;
+  min-height: 90px;
+  
+}
+
+img.mother {
+  max-height: 65vh;
+}
+
+img.daughter {
+  max-height: 55vh;
+}
+
+img.grandma {
+  max-height: 45vh;
+}
+
+/* fight scene */
+
+html.fight {
+  background: #F7C87A;
+  
+}
+
+div.fightMain {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.fightChar {
+  display: flex;
+  width: 95vw;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+div.fightPrompt {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 4;
+}
+
+div.fightTimer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+button.fightPrompt {
+  width: 100%;
+  margin: 10px;
+  min-height: 120px;
+  border-radius: 25px;
+}
+
+button.promptShake {
+  animation: shake 1s ease 0s infinite normal forwards;
+}
+
+button.fightPrompt:hover {
+  cursor: default;
+}
+
+div.fightChoice {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.fightChoice {
+  width: 100%;
+  margin: 10px;
+  background: #C53417;
+  min-height: 120px;
+  border-radius: 25px;
+}
+
+button.fightChoice:hover {
+  color: #000103;
+}
+
+button.fc1:hover {
+  animation: shake 0.6s ease 0s infinite normal forwards;
+}
+
+button.fc2:hover {
+  animation: shake 0.4s ease 0s infinite normal forwards;
+}
+
+button.loveChoice {
+  width: 100%;
+  margin: 10px;
+  background: #F4B043;
+  min-height: 120px;
+  border-radius: 25px;
+  opacity: 0;
+  animation: showLoveChoice 3s forwards;
+  animation-delay: 8.5s;
+}
+
+button.notButton {
+  color: #7F4A3C;
+}
+
+button.notButton:hover {
+  cursor: default;
+  color: #7F4A3C;
+}
+
+@keyframes showLoveChoice {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+
+/* Source: https://webcode.tools/css-generator/keyframe-animation. Type: Shake Rotate */
+@keyframes shake {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+/* winning */
+
+h1.winlose {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-right: 30px;
+  text-align: right;
+}
+
+a.winlose {
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: right;
+  line-height: 0.9;
+}
+
+h3.home {
+  margin-right: 30px;
+  text-align: right;
+  line-height: 0.9;
+}
+
+
+img.winlose {
+  position: fixed;
+  left: 10vw;
+  top: 5vh;
+}
+
+img.winlose_grandma {
+  position: fixed;
+  left: 0;
+  top: 5vh;
+  width:50%
+}
+
+/* losing */
+
+html.lose {
+  background: #000103;
+}
+
+/* love */
+button.finalLoveChoice {
+  
+}
+
+img.noFight {
+  position: fixed;
+  left: 0px;
+  top: 40vh;
+}
+
+/* all ella */
+
+h2.allElla {
+  text-align: center;
+  width: 100vw;
+  padding-right: 30px;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#ella_mother_merge {
+  animation: moveRightAnimation 2s forwards;
+  transition: 1s ease-in-out;
+}
+
+#ella_grandma_merge {
+  animation: moveLeftAnimation 2s forwards;
+  transition: 1s ease-in-out;
+}
+
+@keyframes moveRightAnimation {
+  100% {
+    transform: translateX(33.2vw);
+  }
+}
+
+ @keyframes moveLeftAnimation {
+  100% {
+    transform: translateX(-33.2vw);
+  }
+}
