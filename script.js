@@ -15,7 +15,7 @@ function ella_to_you() {
   location.href='all_you.html';
 }
 
-var countdown = 850;
+var countdown = 2000;
 function updateCountdownLeft() {
   console.log(countdown);
   document.getElementById("countdown_left").textContent = countdown / 100;
