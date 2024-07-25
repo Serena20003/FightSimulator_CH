@@ -12,7 +12,7 @@ function ella_merge() {
 }
 
 function ella_to_you() {
-  location.href='https://fight-simulator.glitch.me/all_you.html';
+  location.href='all_you.html';
 }
 
 var countdown = 850;
@@ -24,5 +24,5 @@ function updateCountdownLeft() {
 }
 
 function to_Ella() {
-  location.href='https://fight-simulator.glitch.me/all_ella.html';
+  location.href='all_ella.html';
 }

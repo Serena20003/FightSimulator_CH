@@ -2,6 +2,8 @@ IML300 Spring 2024
 Project 2
 Serena Li
 
+/\* Translation from [Fight Simulator](https://serena20003.github.io/FightSimulator/): Serena Li
+
 /\* sources:
 
 - https://stackoverflow.com/questions/45553396/html5-audio-tag-start-and-end-at-position
